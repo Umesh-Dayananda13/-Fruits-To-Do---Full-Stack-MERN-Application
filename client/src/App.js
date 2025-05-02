@@ -66,13 +66,13 @@ useEffect(() => {
   const getFruitEmoji = (fruit) => {
     if (!fruit || typeof fruit !== "string") return "🍍";
     const emojis = {
-      apple: "🍎",
-      banana: "🍌",
-      orange: "🍊",
-      grape: "🍇",
-      strawberry: "🍓",
-      watermelon: "🍉",
-      mango: "🥭",
+      Apple,apple: "🍎",
+      Banana,banana: "🍌",
+      Orange,orange: "🍊",
+      Grape,grape: "🍇",
+      Strawberry,strawberry: "🍓",
+      Watermelon,watermelon: "🍉",
+      Mango,mango: "🥭",
     };
     return emojis[fruit.toLowerCase()] || "🍍";
   };
